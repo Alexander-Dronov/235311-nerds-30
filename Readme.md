@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Александр  Дронов](https://up.htmlacademy.ru/htmlcss/30/user/235311).
-* Наставник:[Ярослав Петухов] (https://htmlacademy.ru/profile/yaroslav).
+* Наставник: [Ярослав Петухов](https://htmlacademy.ru/profile/yaroslav).
 
 ---
 
