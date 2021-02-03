@@ -7,14 +7,14 @@
   <body>
   <header>
     <nav>
-    <a>
+    <a href="index.html">
       <img src="https://via.placeholder.com/159x65" alt="Логотип стедии Нёрдс">
     </a>
     <ul>
-      <li><a href="index.html">Студия</a></li>
-      <li><a href="index.html">Клиенты</a></li>
-      <li><a href="catalog.html">Магазин</a></li>
-      <li><a href="index.html">Контакты</a></li>        
+      <li><a href="#">Студия</a></li>
+      <li><a href="#">Клиенты</a></li>
+      <li><a href="#">Магазин</a></li>
+      <li><a href="#">Контакты</a></li>        
     </ul>
     <a href="#">Корзина</a>
     </nav>
@@ -26,22 +26,26 @@
         <fieldset>
             <legend>Стоимость:</legend>
             <input type="range" min="0" max="15000">
-            <p>от 0 до 15000</p>          
+            <p>От
+            <input type="number" min="0" max="15000" value="0" step="1">
+               До
+            <input type="number" min="0" max="15000" value="15000" step="1">
+            </p>          
         </fieldset>
         <fieldset>
             <legend>Сетка:</legend>
             <ul>
                 <li>
-                    <input type="radio" name="net" value="adapted" id="adapted-net" checked>
-                    <label for="adapted-net">Адаптивная</label>
+                <input type="radio" name="net" value="adapted" id="adapted-net" checked>
+                <label for="adapted-net">Адаптивная</label>
                 </li>
                 <li>
-                    <input type="radio" name="net" value="fixed" id="fixed-net">
-                    <label for="fixed-net">Фиксированная</label>
+                <input type="radio" name="net" value="fixed" id="fixed-net">
+                <label for="fixed-net">Фиксированная</label>
                 </li>
                 <li>
-                    <input type="radio" name="net" value="rubber" id="rubber-net">
-                    <lable for="rubber-net">Резиновая</lable>
+                <input type="radio" name="net" value="rubber" id="rubber-net">
+                <lable for="rubber-net">Резиновая</lable>
                 </li>
             </ul>
         </fieldset>
@@ -49,24 +53,24 @@
             <legend>Особенности:</legend>
             <ul>
                 <li>
-                    <input type="checkbox" name="features" id="slider" checked>
-                    <label for="slider">Слайдер</label>
+                <input type="checkbox" name="slider" id="slider" checked>
+                <label for="slider">Слайдер</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="features" id="advantages">
-                    <label fore="advantages">Блок преимуществ</label>
+                <input type="checkbox" name="advantages" id="advantages">
+                <label fore="advantages">Блок преимуществ</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="features" id="news"checked>
-                    <label fore="news">Новости</label>
+                <input type="checkbox" name="news" id="news"checked>
+                <label fore="news">Новости</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="features" id="gallery">
-                    <label for="gallery">Галерея</label>
+                <input type="checkbox" name="gallery" id="gallery">
+                <label for="gallery">Галерея</label>
                 </li>
                 <li>
-                    <input type="checkbox" name="features" id="basket">
-                    <label for="basket">Корзина</label>
+                <input type="checkbox" name="basket" id="basket">
+                <label for="basket">Корзина</label>
                 </li>
             </ul>
         </fieldset>
@@ -90,7 +94,14 @@
     <section>    
         <img src="https://via.placeholder.com/360x40" alt="Форма">
         <a>
-            <img src="https://via.placeholder.com/359x758" alt="Седона">   
+            <img src="https://via.placeholder.com/359x758" alt="Седона">
+            <div>
+            <h2>SEDONA</h2>
+            <p>Информационный сайт для туристов</p>
+            <a href="#">
+            <button>9900 &#8381</button>
+            </a>
+            </div>   
         </a>
         <img src="https://via.placeholder.com/360x40" alt="Форма">
         <a>
@@ -114,7 +125,7 @@
         </a>
         <ul>
             <li>
-                <a href="#">1</a>
+                <a>1</a>
             </li>
             <li>
                 <a href="#">2</a>
