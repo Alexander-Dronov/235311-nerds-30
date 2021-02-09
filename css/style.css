@@ -1,0 +1,295 @@
+/* Variables */
+
+
+/* Global */
+
+.page-body {
+  min-width: 1440px;
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* main-navigation */
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: #eeeeee;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation a:hover {
+  color: #FB565A;
+}
+
+.site-navigation a:focus {
+  color: #666666;
+}
+
+.user-navigation a:hover {
+  color: #FB565A;
+}
+
+.user-navigation a:focus {
+  color: #666666;
+}
+
+  /* features */
+
+.features {
+  background-color: #eeeeee;
+}
+
+.features-list {
+  list-style: none;
+}
+
+.features-item {
+  text-align: left;
+}
+
+.features-item h1 {
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 55px;
+}
+
+.features-item p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.know-button {
+  border: none;
+  border-radius: 3px;
+  background: #FB565A;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  }
+
+  .know-button:hover {
+    background: #E74246;
+  }
+
+  .know-button:focus {
+    background: #D7373B;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: #FFFFFF;
+  }
+
+  /* products*/
+
+  .products-list {
+    list-style: none;
+  }
+
+  .products-list h2 {
+    font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  }
+
+  .products-list p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .products-button-site,
+  .products-button-app,
+  .products-button-presntation {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+    vertical-align: middle;
+  }
+
+  .products-button-site {
+    background: #FB565A;
+  }
+
+  .products-button-app {
+    background: #00CA74;
+  }
+
+  .products-button-presntation {
+    background: #EFC849;
+  }
+
+  .products-button-site:hover {
+    background: #E74246;
+  }
+  .products-button-site:focus {
+    background: #D7373B;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: #FFFFFF;
+    opacity: 0.3;
+  }
+
+  .products-button-app:hover {
+    background: #00BC6C;
+  }
+
+  .products-button-app:focus {
+    background: #00AA62;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: #FFFFFF;
+    opacity: 0.3;
+  }
+
+  .products-button-presntation:hover {
+    background: #EAB534;
+  }
+
+  .products-button-presntation:focus {
+    background: #E5A722;
+    box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
+    color: #FFFFFF;
+    opacity: 0.3;
+  }
+
+    /* description */
+
+  h2 {
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 45px
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    text-transform: uppercase;
+  }
+
+  .description-list {
+    list-style: none;
+  }
+
+  .description-list li::before {
+    content: "-";
+    color: #FB565A;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+  }
+
+  .condition {
+    list-style: none;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 64px;
+  }
+
+  .condition sup {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 40px;
+  }
+
+  .condition p {
+    font-size: 16px;
+    line-height: 18px;
+    color: #283136;
+  }
+
+  /* friends */
+
+  .friends-list {
+    list-style: none;
+  }
+
+  /* main-footer */
+
+  h4 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+  }
+
+  .footer-phone,
+  p {
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #666666;
+  }
+
+  .contacts-button {
+    background: #FB565A;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color:#FFFFFF;
+  }
+
+  /* footer-social */
+
+  .social-list {
+    list-style: none;
+  }
+
+  h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #444444;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
